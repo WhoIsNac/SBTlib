@@ -1,10 +1,8 @@
 mod components {
-    mod generic_lottery;
     mod generic_sbt;
 }
 
 mod core {
-    mod lottery;
     mod interfaces;
     mod sbt;
     mod erc721S;
