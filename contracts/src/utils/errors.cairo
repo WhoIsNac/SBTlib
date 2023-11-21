@@ -1,0 +1,13 @@
+const MIN_DEPOSIT: felt252 = 'insufficient deposit assets';
+const MAX_DEPOSIT_EXCEEDED: felt252 = 'max deposit exceeded';
+const MAX_USERS_EXCEEDED: felt252 = 'max users exceeded';
+const NOT_SHARE_HOLDER: felt252 = 'not share holder';
+const DEPOSIT_ZERO: felt252 = 'deposit equal to zero';
+const TRANSFER_FAILED: felt252 = 'invalid balance';
+const INVALID_WITHDRAW: felt252 = 'invalid withdraw assets';
+const NOT_ENOUGH_SHARES: felt252 = 'insufficient shares';
+const SHARES_ZERO: felt252 = 'should not be zero';
+const NOT_ACTIVE: felt252 = 'vault not active';
+const WINNER_CALCULATION: felt252 = 'calculating winner';
+const NOT_FINISHED: felt252 = 'vault cant be close';
+const NOT_WINNER: felt252 = 'you are not the winner';
